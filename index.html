@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delta Restaurant</title>
+    <link rel="stylesheet" href="./styles/index-style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <a href="#" class="logo">DELTA RESTAURANT</a>
+        <div class="nav-links">
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Welcome to DELTA RESTAURANT</h1>
+      <div class="menu-options">
+        <a href="foods.html" class="menu-card">
+          <img src="./pictures/foods_menu.jpeg" alt="Foods Menu" />
+          <div class="menu-overlay">
+            <div class="menu-title">Foods Menu</div>
+            <div class="menu-description">Explore our delicious dishes</div>
+          </div>
+        </a>
+        <a href="drinks.html" class="menu-card">
+          <img src="./pictures/drinks_menu.jpeg" alt="Drinks Menu" />
+          <div class="menu-overlay">
+            <div class="menu-title">Drinks Menu</div>
+            <div class="menu-description">
+              Discover our refreshing beverages
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section" id="about">
+          <h2>About Us</h2>
+          <p>
+            Welcome to DELTA RESTAURANT, where culinary excellence meets warm
+            hospitality. Established in 2010, we've been serving our community
+            with passion and dedication, creating memorable dining experiences
+            through our carefully crafted dishes and exceptional service.
+          </p>
+          <p>
+            Our chefs use only the finest ingredients, sourced locally whenever
+            possible, to create dishes that celebrate both traditional and
+            contemporary cuisine. Each plate is thoughtfully prepared to deliver
+            an unforgettable dining experience.
+          </p>
+        </div>
+
+        <div class="footer-section" id="contact">
+          <h2>Contact Us</h2>
+          <div class="contact-info">
+            <span>📍 123 Harnet Street, Asmara City</span>
+            <span>📞 +291 7 2024</span>
+            <span>✉️ info@deltarestaurant.com</span>
+            <span>⏰ Mon-Sun: 11:00 AM - 10:00 PM</span>
+            <span>🅿️ Free Parking Available</span>
+            <span>🌐 Follow us on social media @deltarestaurant</span>
+          </div>
+        </div>
+
+        <!-- Feedback Form Section -->
+        <div class="footer-section" id="feedback">
+          <h2>Send us Feedback</h2>
+          <form class="feedback-form">
+            <div class="form-group">
+              <input
+                type="text"
+                name="fullname"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="feedback"
+                placeholder="Your Feedback"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Feedback</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/feedback.js"></script>
+  </body>
+</html>
